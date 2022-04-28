@@ -1,0 +1,27 @@
+{
+  "name": "api-mongodb-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "API" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanluatbui/API-mongodb-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanluatbui/API-mongodb-nodejs/issues"
+  },
+  "homepage": "https://github.com/vanluatbui/API-mongodb-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.15"
+  }
+}
